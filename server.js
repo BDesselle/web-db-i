@@ -1,9 +1,9 @@
-const express = require('express');
+const express = require("express");
 
-const db = require('./data/dbConfig.js');
+const db = require("./data/dbConfig.js");
 
-const server = express();
+const app = express();
 
-server.use(express.json());
+app.use(express.json());
 
-module.exports = server;
+module.exports = app;
